@@ -47,11 +47,11 @@ This method will return an array of listing results within the specified region 
 
 ```json
 {
-  title: '',
-  price: '$50.99',
-  location: '',
-  image: '',
-  url: ''
+  "title": '',
+  "price": '$50.99',
+  "location": '',
+  "image": '',
+  "url": ''
 }
 ```
 
