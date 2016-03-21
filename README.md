@@ -16,8 +16,8 @@ This method will return an array of regions, scraped from [http://www.craigslist
 ```json
 [
   {
-    name: 'san francisco bay area',
-    identifier: 'sfbay'
+    "name": "san francisco bay area",
+    "identifier": "sfbay"
   },
   ...
 ]
@@ -32,8 +32,8 @@ This method will return an array of regions, scraped from the provided region's 
 ```json
 [
   {
-    name: 'books',
-    identifier: 'bka'
+    "name": "books",
+    "identifier": "bka"
   },
   ...
 ]
@@ -47,10 +47,10 @@ This method will return an array of listing results within the specified region 
 
 ```json
 {
-  title: '',
-  price: 50.99,
-  description: '',
-  url: ''
+  "title": "",
+  "price": 50.99,
+  "description": "",
+  "url": ""
 }
 ```
 
