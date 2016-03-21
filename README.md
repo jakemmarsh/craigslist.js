@@ -14,13 +14,13 @@ A Javascript API wrapper for craigslist.org.
 This method will return an array of regions, scraped from [http://www.craigslist.org/about/sites](http://www.craigslist.org/about/sites). The results will be of the format:
 
 ```json
-  [
-    ...
-    {
-      name: 'san francisco bay area',
-      identifier: 'sfbay'
-    }
-  ]
+[
+  {
+    name: 'san francisco bay area',
+    identifier: 'sfbay'
+  },
+  ...
+]
 ```
 
 The `identifier` property should be used when invoking other methods that require a region.
@@ -30,13 +30,13 @@ The `identifier` property should be used when invoking other methods that requir
 This method will return an array of regions, scraped from the provided region's index page. The results will be of the format:
 
 ```json
-  [
-    ...
-    {
-      name: 'books',
-      identifier: 'bka'
-    }
-  ]
+[
+  {
+    name: 'books',
+    identifier: 'bka'
+  },
+  ...
+]
 ```
 
 The `identifier` property should be used when invoking other methods that require a category.
@@ -46,14 +46,12 @@ The `identifier` property should be used when invoking other methods that requir
 This method will return an array of listing results within the specified region and category, also matching an optional query. It will return up to `limit` results, which defaults to 50. The results will be of the format:
 
 ```json
-  [
-    {
-      title: '',
-      price: 50.99,
-      description: '',
-      url: ''
-    }
-  ]
+{
+  title: '',
+  price: 50.99,
+  description: '',
+  url: ''
+}
 ```
 
 ### Running Tests
