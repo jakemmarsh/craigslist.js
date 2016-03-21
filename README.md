@@ -50,7 +50,8 @@ This method will return an array of listing results within the specified region 
     {
       title: '',
       price: 50.99,
-      description: '',
+      location: '',
+      image: '',
       url: ''
     }
   ]
