@@ -1,0 +1,22 @@
+{
+  parser: "babel-eslint",
+  ecmaFeatures: {
+    "modules": true
+  },
+  env: {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  rules: {
+    "quotes": [2, "single"],
+    "no-debugger": 1,
+    "no-unused-vars": 2,
+    "no-undefined": 2,
+    "camelcase": 2,
+    "no-var": 2,
+    "prefer-const": 2,
+    "new-cap": 2,
+    "semi": 2
+  }
+}
