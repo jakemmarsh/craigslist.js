@@ -27,7 +27,7 @@ The `identifier` property should be used when invoking other methods that requir
 
 ##### `getCategories(regionIdentifier)`
 
-This method will return an array of regions, scraped from the provided region's index page. The results will be of the format:
+This method will return an array of categories, scraped from the provided region's index page. The results will be of the format:
 
 ```json
 [
