@@ -41,10 +41,10 @@
   },
   "scripts": {
     "dev": "babel lib --watch --out-dir dist --source-maps inline",
-    "test": "mocha --compilers js:babel-register",
-    "test-watch": "mocha --watch --compilers js:babel-register",
+    "test": "./node_modules/.bin/mocha test/**/*.js --compilers js:babel-register",
+    "test-watch": "./node_modules/.bin/mocha --watch test/**/*.js --compilers js:babel-register",
     "build": "babel lib --out-dir dist",
     "lint": "eslint lib/**/*.js test/**/*.js",
-    "prepublish": "npm run-script build"
+    "prepublish": "npm run build"
   }
 }
