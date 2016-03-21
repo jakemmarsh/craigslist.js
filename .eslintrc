@@ -12,7 +12,7 @@
     "quotes": [2, "single"],
     "no-debugger": 1,
     "no-unused-vars": 2,
-    "no-undefined": 2,
+    "no-undef": 2,
     "camelcase": 2,
     "no-var": 2,
     "prefer-const": 2,
