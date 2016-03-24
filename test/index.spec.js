@@ -51,7 +51,7 @@ describe('craigslist.js', function() {
     });
   });
 
-  describe.only('#getListings', function() {
+  describe('#getListings', function() {
     beforeEach(function() {
       regionIdentifier = 'sfbay';
       categoryIdentifier = 'bka';
