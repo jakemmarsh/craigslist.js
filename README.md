@@ -1,4 +1,4 @@
-# craigslist.js [![npm version](https://badge.fury.io/js/playback-queue.svg)](https://badge.fury.io/js/playback-queue) [![Build Status](https://travis-ci.org/jakemmarsh/craigslist.js.svg?branch=master)](https://travis-ci.org/jakemmarsh/craigslist.js) [![Dependency Status](https://david-dm.org/jakemmarsh/craigslist.js.svg)](https://david-dm.org/jakemmarsh/craigslist.js) [![devDependency Status](https://david-dm.org/jakemmarsh/craigslist.js/dev-status.svg)](https://david-dm.org/jakemmarsh/craigslist.js#info=devDependencies)
+# craigslist.js [![npm version](https://badge.fury.io/js/craigslist.js.svg)](https://badge.fury.io/js/craigslist.js) [![Build Status](https://travis-ci.org/jakemmarsh/craigslist.js.svg?branch=master)](https://travis-ci.org/jakemmarsh/craigslist.js) [![Dependency Status](https://david-dm.org/jakemmarsh/craigslist.js.svg)](https://david-dm.org/jakemmarsh/craigslist.js) [![devDependency Status](https://david-dm.org/jakemmarsh/craigslist.js/dev-status.svg)](https://david-dm.org/jakemmarsh/craigslist.js#info=devDependencies)
 A Javascript API wrapper for craigslist.org.
 
 ### Getting Started
