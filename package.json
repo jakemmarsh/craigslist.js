@@ -40,8 +40,8 @@
   },
   "scripts": {
     "dev": "babel lib --watch --out-dir dist --source-maps inline",
-    "test": "./node_modules/.bin/mocha test/ --recursive --compilers js:babel-register",
-    "test-watch": "./node_modules/.bin/mocha --watch test/ --recursive --compilers js:babel-register",
+    "test": "./node_modules/.bin/mocha --recursive --compilers js:babel-register",
+    "test-watch": "./node_modules/.bin/mocha --recursive --watch --compilers js:babel-register",
     "build": "babel lib --out-dir dist",
     "lint": "eslint lib/**/*.js test/**/*.js",
     "prepublish": "npm run build"
