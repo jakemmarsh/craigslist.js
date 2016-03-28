@@ -54,7 +54,7 @@ describe('craigslist.js', function() {
   describe('#getListings', function() {
     beforeEach(function() {
       regionIdentifier = 'sfbay';
-      categoryIdentifier = 'bka';
+      categoryIdentifier = 'ela';
     });
 
     context('without a query', function() {
@@ -86,7 +86,7 @@ describe('craigslist.js', function() {
 
     context('with a query', function() {
       beforeEach(function() {
-        query = '';
+        query = 'macbook';
       });
 
       it('should return a properly formatted list of listings', function(done) {
